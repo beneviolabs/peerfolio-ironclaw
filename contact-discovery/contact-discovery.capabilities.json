@@ -1,0 +1,35 @@
+{
+  "version": "0.1.0",
+  "wit_version": "0.3.0",
+  "description": "Lookup Peerfolio strategy previews for one already-tokenized contact identifier. This tool never accepts raw phone numbers or contact files.",
+  "capabilities": {
+    "http": {
+      "allowlist": [
+        {
+          "host": "api.peerfolio.app",
+          "path_prefix": "/contact-discovery/discover",
+          "methods": ["POST"]
+        },
+        {
+          "host": "staging-api.peerfolio.app",
+          "path_prefix": "/contact-discovery/discover",
+          "methods": ["POST"]
+        },
+        {
+          "host": "localhost",
+          "path_prefix": "/contact-discovery/discover",
+          "methods": ["POST"]
+        },
+        {
+          "host": "127.0.0.1",
+          "path_prefix": "/contact-discovery/discover",
+          "methods": ["POST"]
+        }
+      ],
+      "rate_limit": {
+        "requests_per_minute": 5,
+        "requests_per_hour": 20
+      }
+    }
+  }
+}

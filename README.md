@@ -1,6 +1,6 @@
 # Peerfolio IronClaw / OpenClaw Contact Discovery
 
-This mono-repo contains the hackathon MVP for Peerfolio's privacy-preserving contact discovery flow for agent-native applications.
+This mono-repo contains the hackathon MVP for [Peerfolio](https://getpeerfolio.app/)'s privacy-preserving contact discovery flow for agent-native applications.
 
 The project explores a pattern that should replace the old "upload your address book" growth loop. Instead of sending raw contacts to an app, a user can let an IronClaw-secured agent tokenize their contacts locally and use those private tokens to make Peerfolio strategies discoverable to people who already know them.
 
@@ -12,7 +12,7 @@ As consumer agents become mainstream, users will install tools, skills, and app 
 
 Peerfolio Contact Discovery demonstrates one answer:
 
-> Let people who already know you discover your Peerfolio strategies privately via IronClaw.
+> Let people who already know you discover your Peerfolio strategies privately via [IronClaw](https://www.ironclaw.com/).
 
 A Peerfolio user opts in, tokenizes phone contacts through an IronClaw-secured boundary, and uploads only derived contact tokens to Peerfolio. A prospective user can then ask their agent to discover strategies shared by people who have them in contacts, without Peerfolio receiving raw phone numbers or full contact lists.
 

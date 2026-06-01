@@ -35,10 +35,6 @@ This mono-repo currently contains two IronClaw WASM tools plus product and techn
   - Calls Peerfolio's public `POST /contact-discovery/discover` endpoint.
   - Returns safe strategy previews only.
   - Never accepts raw phone numbers, VCF text, contact names, emails, or contact lists.
-- `peerfolio-openclaw-contact-discovery.md`
-  - Product framing, MVP flows, acceptance criteria, out-of-scope items, and success metrics.
-- `peerfolio-openclaw.md`
-  - Technical RFC covering endpoint shapes, backend data model, rate limits, tokenization, revocation, and V2 hardening recommendations.
 
 ## Product Flow
 
